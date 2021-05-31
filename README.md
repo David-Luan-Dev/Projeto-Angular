@@ -1,5 +1,4 @@
-# Crud Angular v10 - Angular Material v10
-
+# Crud Angular  Administração de Estoque  - LocalStorage
 ## Screenshots
 
 Print da tela :
