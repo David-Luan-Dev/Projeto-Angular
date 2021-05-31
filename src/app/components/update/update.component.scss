@@ -1,0 +1,24 @@
+nav {
+    span {
+        font-size: 35px;
+        color: #3f51b5;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        button {
+            margin-right: 10px;
+        }
+    }
+
+}

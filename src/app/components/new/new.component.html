@@ -1,0 +1,51 @@
+<div class="content">
+
+    <form class="card" (ngSubmit)="onSubmit()" [formGroup]="formCreate" #form="ngForm">
+        
+        <mat-form-field appearance="outline" class="input">
+            <mat-label>quantidade</mat-label>
+            <input formControlName="quantidade" matInput>
+        </mat-form-field>
+        
+        <mat-form-field appearance="outline" class="input">
+            <mat-label>Marca</mat-label>
+            <input formControlName="marca" matInput>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="input">
+            <mat-label>modelo</mat-label>
+            <input formControlName="modelo" matInput>
+        </mat-form-field>   
+       
+        <mat-form-field appearance="outline" class="input">
+            <mat-label>Placa-Mae</mat-label>
+            <input formControlName="placamae" matInput>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="input">
+            <mat-label>Processador</mat-label>
+            <input formControlName="processador" matInput>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="input">
+            <mat-label>Memoria</mat-label>
+            <input formControlName="memoria" matInput>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="input">
+            <mat-label>hd</mat-label>
+            <input formControlName="hd" matInput>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="input">
+            <mat-label>Senha</mat-label>
+            <input type="password" formControlName="password" matInput>
+        </mat-form-field>
+
+        <div>
+            <button mat-button color="" type="reset">Limpar</button>
+            <button mat-raised-button color="primary" type="submit" [disabled]="!form.form.valid">Salvar</button>
+        </div>
+
+    </form>
+</div>

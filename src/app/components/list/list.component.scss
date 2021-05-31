@@ -1,0 +1,42 @@
+table {
+  width: 100%;
+}
+.list{
+  color:black
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td,
+th {
+  width: 10%;
+}
+
+.mat-form-field {
+  max-width: 500px;
+}
+
+.header__section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-body{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.row__icon {
+  display: flex;
+
+  span {
+    color: #3f51b5;
+    margin: 5px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+
+html,
+body {
+  background-color: #ececec;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.main {
+  margin: 15px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+  padding: 10px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 7px;
+  padding: 20px
+}
